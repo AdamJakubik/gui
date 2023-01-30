@@ -28,7 +28,7 @@ public class HelloDemo extends JFrame{
             }
         });
         copyButton.addActionListener(e -> {
-            textArea1.setText(textArea1.getText() + "\n" + txtName.getText());
+            textArea1.setText(textArea1.getText() + txtName.getText() + "\n");
         });
     }
 
